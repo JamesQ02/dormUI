@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserChoice">
+
+    <TextView
+        android:id="@+id/choicetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you........?"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/choicetxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/renterbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renter"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/ownerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
